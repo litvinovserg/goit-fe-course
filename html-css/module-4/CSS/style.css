@@ -1,0 +1,99 @@
+body {
+  font-family: "Open Sans", Roboto, Ubuntu, Arial, serif;
+  color: #555252;
+  font-size: 14px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.products_news {
+  width: 1110px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto
+}
+
+.menu {
+  padding-top: 38px;
+  padding-bottom: 112px;
+}
+.logo {
+  float: left
+}
+
+.menu-navigation{
+  float:right;
+}
+.menu-li {
+  display: inline-block;
+  text-transform: uppercase;
+  list-style: none;
+  padding-left: 38px;
+  }
+ 
+a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: bold;
+  color:black
+}
+
+h2 {
+  font-family: Roboto;
+  font-size: 48px;
+  color:#515151;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 132px
+}
+
+.product_window {
+  float:left;
+  padding-right: 30px;
+  }
+
+.product_window:nth-child(4n) {
+  padding-right: 0px;
+}
+
+.news{
+  width: 350px;
+  float: left
+}
+.latest_news_image{
+  float: right
+}
+
+.name_price {
+  position: relative;
+  top: -43px;
+  height: 40px;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: white;
+  vertical-align: middle;
+  background-color: #323232;
+}
+.name_price span {
+  float: right;
+  padding: 0px 5px;
+  background-color: #8c8c8c;
+}
+
+.name_price p {
+  padding-left: 13px
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
