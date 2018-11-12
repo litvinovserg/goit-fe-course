@@ -97,11 +97,14 @@ body {
 {margin-bottom: 0} */
 
 .end-button {
-  height: 50px;
+  width: 164px;
+  height: 60px;
   display: block;
-  /* position: relative; */
   border: 1px solid;
   color:#626262;
+  background-color: #fff;
+  font-size: 20px;
   margin: 0 auto;
-  padding: 21px 31px
-  }
+  margin-top: 54px;
+  margin-bottom: 71px;
+}
