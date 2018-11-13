@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  width: 901px;
+  width: 900px;
   margin: 0 auto;
   /* background-color: #717ef3; */
 }
@@ -57,6 +57,10 @@ body {
   color: #03a9f4;
 }
 
+.article-block {
+  font-size: 0
+}
+
 .article-item {
   display: inline-block;
   width: 420px;
@@ -68,12 +72,13 @@ body {
  }
 
 .article-block .article-item:nth-child(odd) {
-  margin-right: 57px;
+  margin-right: 60px;
 }
 
 .article-category {
   color: #b4ad9e;
   font-family: Ubuntu;
+  font-size: 14px;
   line-height: 17px;
   margin-top: 32px;
   margin-bottom: 28px;
@@ -86,6 +91,7 @@ body {
   margin-bottom: 32px;
 }
 .article-desc {
+  font-size: 14px;
   line-height: 24px;
   /* margin-bottom: 136px; */
 }
@@ -107,4 +113,5 @@ body {
   margin: 0 auto;
   margin-top: 54px;
   margin-bottom: 71px;
+  cursor: pointer
 }
