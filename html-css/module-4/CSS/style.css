@@ -3,6 +3,7 @@ body {
   color: #555252;
   font-size: 14px;
 }
+
 *,
 *::before,
 *::after {
@@ -28,9 +29,10 @@ body {
 
 .menu-navigation{
   float:right;
+  margin-top: 4px
 }
-.menu-li {
-  display: inline-block;
+.menu-navigation li{
+  float:left;
   text-transform: uppercase;
   list-style: none;
   padding-left: 38px;
@@ -41,6 +43,10 @@ a {
   font-family: Roboto;
   font-weight: bold;
   color:black
+}
+
+a:hover {
+  color:#1abc9c
 }
 
 h2 {
@@ -73,16 +79,23 @@ background-color: #1abc9c
 
 .product_window {
   float:left;
-  padding-right: 30px;
+  margin-right: 30px;
+  cursor: pointer
   }
 
 .product_window:nth-child(4n) {
-  padding-right: 0px;
+  margin-right: 0px;
+}
+
+img {
+display: block;
+max-width: 100%;
 }
 
 .news{
   width: 350px;
   float: left;
+  font-size: 0px 
 }
 
 .news:not(:last-child) {
@@ -102,6 +115,7 @@ background-color: #1abc9c
   vertical-align: middle;
   background-color: #323232;
 }
+
 .name_price span {
   float: right;
   padding: 0px 5px;
@@ -129,6 +143,7 @@ background-color: #1abc9c
   }
 
  .text-news {
+font-size: 14px;   
 line-height: 26px
  }
 
@@ -142,7 +157,8 @@ line-height: 26px
   font-size: 16px;
   color: #fff;
   background-color: #4ec6ab;
-  text-align: center
+  text-align: center;
+  cursor: pointer
 }
 
 .clearfix::after {
@@ -150,3 +166,13 @@ line-height: 26px
   clear: both;
   display: block;
 }
+
+.name_price {
+    overflow: hidden;
+  }
+   
+  .product_window:hover .name_price:after{
+    content:"";
+    position: absolute;
+    box-shadow: 0 0 0 300px rgba(6, 236, 186, 0.5);
+    }
