@@ -16,7 +16,7 @@ body {
   width: 1110px;
   padding-left: 30px;
   padding-right: 30px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .menu {
@@ -24,78 +24,81 @@ body {
   padding-bottom: 112px;
 }
 .logo {
-  float: left
+  float: left;
 }
 
-.menu-navigation{
-  float:right;
-  margin-top: 4px
+.menu-navigation {
+  float: right;
+  margin-top: 4px;
 }
-.menu-navigation li{
-  float:left;
+.menu-navigation li {
+  float: left;
   text-transform: uppercase;
   list-style: none;
   padding-left: 38px;
-  }
- 
+}
+
 a {
   text-decoration: none;
   font-family: Roboto;
   font-weight: bold;
-  color:black
+  color: black;
 }
 
 a:hover {
-  color:#1abc9c
+  color: #1abc9c;
 }
 
 h2 {
   font-family: Roboto;
   font-size: 48px;
-  color:#515151;
-  line-height: 32px;
+  color: #515151;
+  line-height: 52px;
   text-transform: uppercase;
-  text-align: center
-  }
+  text-align: center;
+}
 
 .product_title_name {
-padding-bottom: 100px  
+  padding-bottom: 100px;
 }
 
 .latest_news_name {
-padding-bottom: 90px;
-padding-top: 100px
+  padding-bottom: 90px;
+  padding-top: 100px;
 }
 
 h2::after {
-content: ""; 
-display: block;
-width: 165px;
-height: 7px;
-margin: auto;
-margin-top: 30px;
-background-color: #1abc9c
+  content: "";
+  display: block;
+  width: 165px;
+  height: 7px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #1abc9c;
 }
 
 .product_window {
-  float:left;
+  float: left;
+  width: 255px;
+  height: 322px;
   margin-right: 30px;
-  cursor: pointer
-  }
+  margin-bottom: 40px;
+  cursor: pointer;
+}
 
 .product_window:nth-child(4n) {
   margin-right: 0px;
 }
 
 img {
-display: block;
-max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
-.news{
+.news {
   width: 350px;
   float: left;
-  font-size: 0px 
+  font-size: 0px;
 }
 
 .news:not(:last-child) {
@@ -116,38 +119,39 @@ max-width: 100%;
   background-color: #323232;
 }
 
-.name_price span {
+span {
   float: right;
-  padding: 0px 5px;
+  padding: 0px 18px;
   background-color: #8c8c8c;
 }
 
 .name_price p {
-  padding-left: 13px
+  padding-left: 13px;
 }
 
 .text-image {
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
+  padding-top: 10px;
 }
 
 .text-image::after {
-  content: ""; 
+  content: "";
   display: block;
   width: 135px;
   height: 3px;
   margin-top: 10px;
   margin-bottom: 25px;
-  background-color: #1abc9c
-  }
+  background-color: #1abc9c;
+}
 
- .text-news {
-font-size: 14px;   
-line-height: 26px
- }
+.text-news {
+  font-size: 14px;
+  line-height: 26px;
+}
 
- .button {
+.button {
   width: 160px;
   height: 52px;
   margin-top: 16px;
@@ -158,21 +162,27 @@ line-height: 26px
   color: #fff;
   background-color: #4ec6ab;
   text-align: center;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .clearfix::after {
-  content: '';
+  content: "";
   clear: both;
   display: block;
 }
 
 .name_price {
-    overflow: hidden;
-  }
-   
-  .product_window:hover .name_price:after{
-    content:"";
-    position: absolute;
-    box-shadow: 0 0 0 300px rgba(6, 236, 186, 0.5);
-    }
+  overflow: hidden;
+}
+
+.product_window:hover .name_price {
+  background: rgb(26, 188, 156);
+}
+
+.product_window:hover .name_price span {
+  background: rgb(127, 217, 199);
+}
+
+.text_down {
+  color: white;
+}
