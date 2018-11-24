@@ -77,17 +77,24 @@ h2::after {
   background-color: #1abc9c;
 }
 
+.images_galery {
+  height: 674px;
+}
+
 .product_window {
   float: left;
   width: 255px;
   height: 322px;
   margin-right: 30px;
-  margin-bottom: 40px;
   cursor: pointer;
 }
 
 .product_window:nth-child(4n) {
   margin-right: 0px;
+}
+
+.product_window:nth-child(-n+4) {
+  margin-bottom: 30px;
 }
 
 img {
