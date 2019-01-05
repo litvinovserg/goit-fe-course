@@ -4,35 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="CSS/normalize.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,900"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="/pe-icon-7-stroke/dist/" />
-
-    <link rel="stylesheet" href="CSS/style.css" />
     <title>Document</title>
   </head>
   <body class="products_news">
-    <header class="menu container">
-      <nav class="nav-menu clearfix">
-        <a href="" class="logo">
-          <img
-            src="image/site-logo.png"
-            alt="site-logo"/>
-        </a>
-        <ul class="menu-navigation">
-          <li class="menu-li"><a href="#">home</a></li>
-          <li class="menu-li"><a href="#">about us</a></li>
-          <li class="menu-li"><a href="#">page</a></li>
-          <li class="menu-li"><a href="#">shop</a></li>
-          <li class="menu-li"><a href="#">blog</a></li>
-          <li class="menu-li"><a href="#">contact us</a></li>
+    <header class="wrapper header">
+      <nav class="nav_menu">
+        <a class="logo" href="#"><h1 class="logo_h"><span class="one_latter">М</span>art</h1></a>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#">Home</a></li>
+          <li class="nav_item"><a href="#">About us</a></li>
+          <li class="nav_item"><a href="#">Page</a></li>
+          <li class="nav_item"><a href="#">Shop</a></li>
+          <li class="nav_item"><a href="#">Blog</a></li>
+          <li class="nav_item"><a href="#">Contact us</a></li>
         </ul>
       </nav>
     </header>
@@ -73,21 +60,21 @@
             </button>
           </div>
           <div class="text_slider">
-          <h2 class="text_slider_up">affordable paris tours</h2>
-          <p class="text_tours"> city tuors / tour tickets / tour guides</p>
+            <h2 class="text_slider_up">affordable paris tours</h2>
+            <p class="text_tours">city tuors / tour tickets / tour guides</p>
           </div>
           <div class="banner_background"></div>
         </div>
       </section>
       <!-- section featured_products -->
-      <section class="featured_products clearfix">
-        <header class="products_title container">
+      <section class="featured_products">
+        <header class="products_title wrapper">
           <h2 class="product_title_name">new collection</h2>
         </header>
         <!-- featured_galery -->
-        <div class="images_galery container">
+        <div class="images_galery wrapper">
           <div class="product_window">
-            <img
+            <img class="product_img"
               src="image/5_1.jpg"
               alt="blue_shirt"
               width="255"
@@ -177,7 +164,7 @@
             </div>
           </div>
           <div class="product_window">
-            <img
+            <img class="product_img"
               src="image/5_2.jpg"
               alt="blue_shirt"
               width="255"
@@ -267,7 +254,7 @@
             </div>
           </div>
           <div class="product_window">
-            <img
+            <img class="product_img"
               src="image/5_3.jpg"
               alt="blue_shirt"
               width="255"
@@ -357,7 +344,7 @@
             </div>
           </div>
           <div class="product_window">
-            <img
+            <img class="product_img"
               src="image/5_4.jpg"
               alt="blue_shirt"
               width="255"
@@ -452,7 +439,7 @@
     <footer class="footer">
       <p class="footer_text">
         All Rights Reserved © Dokan | Designed
-        <span class="text_end">ThemenGraph</span>
+        <a class="text_end" href="#"> ThemenGraph </a>
       </p>
     </footer>
   </body>
