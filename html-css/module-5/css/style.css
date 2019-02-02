@@ -366,6 +366,7 @@ img {
 }
 
 .bottom_icon_text {
+  font-family: "Open Sans";
   height: 50px;
   line-height: 50px;
   text-transform: uppercase;
